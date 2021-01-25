@@ -10,6 +10,7 @@ void showErrorMessage(string message)
 }
 int main()
 {
+	cout << "start\n";
 	WSADATA wsaData;
 	SOCKET serverSocket, clientSocket;
 	SOCKADDR_IN serverAddress, clientAddress;
